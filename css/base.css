@@ -1,0 +1,151 @@
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, figure, p, pre {
+  margin: 0;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+img, svg, video, canvas, audio, iframe, embed, object {
+  display: block;
+  vertical-align: middle;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    width: 540px;
+    max-width: 540px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 960px;
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1140px;
+    max-width: 1140px;
+  }
+}
+
+.container-ipad {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .container-ipad {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-ipad {
+    width: 720px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container-ipad {
+    width: 960px;
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-ipad {
+    width: 1140px;
+    max-width: 1140px;
+  }
+}
+
+.container-ipadpro {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .container-ipadpro {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-ipadpro {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container-ipadpro {
+    width: 960px;
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-ipadpro {
+    width: 1140px;
+    max-width: 1140px;
+  }
+}
+
+.container-labtop {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .container-labtop {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-labtop {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container-labtop {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-labtop {
+    width: 1140px;
+    max-width: 1140px;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 100%;
+}
+/*# sourceMappingURL=base.css.map */

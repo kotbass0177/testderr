@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Index</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
 
-  <!-- Css -->
-  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Css -->
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/navbar.min.css">
 
-  <!-- font -->
-  <link rel="preload stylesheet" as="style" onload="this.rel='stylesheet'" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap">
-  <style>*{font-family: 'Quicksand', sans-serif;}</style>
-
+    <!-- font -->
+    <link rel="preload stylesheet" as="style" onload="this.rel='stylesheet'"
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap">
+    <style>
+        * {
+            font-family: 'Quicksand', sans-serif;
+        }
+    </style>
 </head>
-<body>
 
+<body>
+    <nav class="navbar-wrapper">
+
+        <div class="hamburger "><span></span><span></span><span></span></div>
+
+        <ul class="navbar ">
+            <li class="nav-item"><a href="">เมนูที่1</a></li>
+            <li class="nav-item"><a href="">เมนูที่2</a></li>
+            <li class="nav-item"><a href="">เมนูที่3</a></li>
+            <li class="nav-item"><a href="">เมนูที่4</a></li>
+            <li class="nav-item"><a href="">เมนูที่5</a></li>
+        </ul>
+        <div class="navbar-shadow "></div>
+    </nav>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navbar = document.querySelector('.navbar');
+        const navbarShadow = document.querySelector('.navbar-shadow');
+        hamburger.onclick = e => {
+            e.target.closest('.hamburger').classList.toggle('active');
+            navbar.classList.toggle('active');
+            navbarShadow.classList.toggle('active');
+        }
+        navbarShadow.onclick = e => {
+            e.target.classList.remove('active');
+            navbar.classList.toggle('active');
+            navbar.classList.remove('active');
+        }
+    </script>
 </body>
+
 </html>
